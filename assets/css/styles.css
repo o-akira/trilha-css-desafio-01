@@ -1,0 +1,118 @@
+@import url('reset.css');
+
+body{
+    font-family: Roboto;
+    color: white;
+    background-color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #2596be;
+}
+
+h2{
+    text-transform: uppercase;
+    font-stretch: expanded;
+    font-size: xx-large;
+    color: #2596be;
+}
+
+span{
+    color: #2596be;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+.banner{
+    background-image: url(/assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #043e53;
+    box-shadow: 0px 0px 500px 70px black inset;
+    border-bottom: 1px solid #2596be;
+    min-height: 550px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.banner-content{
+    display: grid;
+    place-items: center;
+    font-size: large;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+button{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 600;
+    color: #2596be;
+    border: 2px solid #2596be;
+    width: 300px;
+    height: 50px;
+}
+
+#course-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.module{
+    text-align: center;
+    align-content: center;
+    margin: 30px 50px;
+    border: 2px solid #2596be;
+    border-radius: 300px;
+    background-color: rgb(41, 41, 41);
+    height: 40px;
+    width: 500px;
+}
+
+#transform-world{
+    background-image: url(/assets/images/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #2596be;
+    border-bottom: 1px solid #2596be;
+    min-height: 350px;
+}
+
+#transform-world p{
+    margin: 100px 100px 0 180px;
+    text-transform: lowercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    max-width: 230px;
+    text-shadow: 3px 2px #2596be;
+}
+
+#professional-challenges{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-bottom: 1px solid #2596be;
+}
+
+footer{
+    display: grid;
+    place-items: center;
+}
+
+footer a{
+    text-decoration-line: none;
+    font-weight: 900;
+    color: #2596be;
+}
